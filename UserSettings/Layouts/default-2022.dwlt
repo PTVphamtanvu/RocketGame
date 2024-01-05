@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 50
+  controlID: 72
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -392,7 +392,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -436,21 +437,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000be590000c0590000
+    m_ExpandedIDs: ffffffff00000000be590000e4590000e6590000e8590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Fly Under
+      m_OriginalName: Fly Under
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 25498
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -983,11 +984,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.120261, y: -0.14185302, z: 0.0173649, w: -0.98239994}
     speed: 2
-    m_Value: {x: -0.120261, y: -0.14185302, z: 0.017364899, w: -0.9823999}
+    m_Value: {x: -0.12026123, y: -0.14185329, z: 0.017364934, w: -0.9824018}
   m_Size:
     m_Target: 28.232136
     speed: 2
-    m_Value: 27.016397
+    m_Value: 28.232136
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1049,9 +1050,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 005a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 30fbffff
+      m_ExpandedIDs: f60bfffffa0cffffc40effff4a0fffff0810ffff7e14ffff0415fffffc1affff6421ffff022dffff3c37ffff105dffff466fffff9677ffff1a80ffff8e80ffff2283ffff3484ffffa884ffff3485ffffa885ffff4a86ffff068effff8c8effff008fffff868fffff0090ffff8690fffffa90ffff8091fffff491ffff30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
