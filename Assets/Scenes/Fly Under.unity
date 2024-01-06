@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!198 &137967451 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3587966212215714263, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+  m_PrefabInstance: {fileID: 1641624297}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,6 +314,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &1217156042 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4143591386487892758, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+  m_PrefabInstance: {fileID: 1641624297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1509691871 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4836870782649682264, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+  m_PrefabInstance: {fileID: 1641624297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1524149342 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1167369571195282880, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+  m_PrefabInstance: {fileID: 1641624297}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1641624297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -321,6 +341,18 @@ PrefabInstance:
       propertyPath: mainEngine
       value: 
       objectReference: {fileID: 8300000, guid: ab2d839ec6714014db5e4f82b72d6849, type: 3}
+    - target: {fileID: 1866751172318006699, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: leftEngineParticles
+      value: 
+      objectReference: {fileID: 1509691871}
+    - target: {fileID: 1866751172318006699, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: mainEngineParticles
+      value: 
+      objectReference: {fileID: 1524149342}
+    - target: {fileID: 1866751172318006699, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: rightEngineParticles
+      value: 
+      objectReference: {fileID: 1217156042}
     - target: {fileID: 2929801937428429729, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
       propertyPath: crash
       value: 
@@ -329,6 +361,14 @@ PrefabInstance:
       propertyPath: success
       value: 
       objectReference: {fileID: 8300000, guid: cf13af718dfa9c040adb6bba03153000, type: 3}
+    - target: {fileID: 2929801937428429729, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: crashParticles
+      value: 
+      objectReference: {fileID: 137967451}
+    - target: {fileID: 2929801937428429729, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: successParticles
+      value: 
+      objectReference: {fileID: 2064804052}
     - target: {fileID: 3094453856676889674, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
       propertyPath: m_Name
       value: Rocket
@@ -339,7 +379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5111987422661553551, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.245
+      value: 1.23
       objectReference: {fileID: 0}
     - target: {fileID: 5111987422661553551, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
       propertyPath: m_LocalPosition.z
@@ -588,6 +628,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &2064804052 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4600709508179854838, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+  m_PrefabInstance: {fileID: 1641624297}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1225012458501851670
 PrefabInstance:
   m_ObjectHideFlags: 0

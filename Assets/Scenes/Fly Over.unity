@@ -217,6 +217,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!198 &916151314 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3587966212215714263, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+  m_PrefabInstance: {fileID: 3277456336534369966}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,6 +314,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &987052959 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4600709508179854838, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+  m_PrefabInstance: {fileID: 3277456336534369966}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1976158676
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,9 +594,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1167369571195282880, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866751172318006699, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: leftEngineParticles
+      value: 
+      objectReference: {fileID: 3277456336534369968}
+    - target: {fileID: 1866751172318006699, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: mainEngineParticles
+      value: 
+      objectReference: {fileID: 3277456336534369969}
+    - target: {fileID: 1866751172318006699, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: rightEngineParticles
+      value: 
+      objectReference: {fileID: 3277456336534369967}
+    - target: {fileID: 2929801937428429729, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: crashParticles
+      value: 
+      objectReference: {fileID: 916151314}
+    - target: {fileID: 2929801937428429729, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: successParticles
+      value: 
+      objectReference: {fileID: 987052959}
     - target: {fileID: 3094453856676889674, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
       propertyPath: m_Name
       value: Rocket
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143591386487892758, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836870782649682264, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+      propertyPath: looping
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5111987422661553551, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
       propertyPath: m_LocalPosition.x
@@ -633,6 +675,21 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+--- !u!198 &3277456336534369967 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4143591386487892758, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+  m_PrefabInstance: {fileID: 3277456336534369966}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &3277456336534369968 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4836870782649682264, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+  m_PrefabInstance: {fileID: 3277456336534369966}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &3277456336534369969 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1167369571195282880, guid: 9a2305e2de50c7e478ba58d63d92d175, type: 3}
+  m_PrefabInstance: {fileID: 3277456336534369966}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6912227091580443352
 PrefabInstance:
   m_ObjectHideFlags: 0
