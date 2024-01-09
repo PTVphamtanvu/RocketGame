@@ -6,6 +6,8 @@ public class CollisionHandler : MonoBehaviour
     float delayTime = 1f;
     bool isTransitioning = false;
 
+    bool collisionDisable = false;
+
     [SerializeField] AudioClip success;
     [SerializeField] AudioClip crash;
     [SerializeField] ParticleSystem successParticles;
@@ -18,9 +20,21 @@ public class CollisionHandler : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            NextLevel();
+        }
+        else if (Input.GetKeyDown(KeyCode.C))
+        {
+            collisionDisable = !collisionDisable;
+        }
+    }
+
     void OnCollisionEnter(Collision other)
     {
-        if (isTransitioning)
+        if (isTransitioning || collisionDisable)
         {
             return;
         }
