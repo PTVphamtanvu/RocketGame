@@ -4,9 +4,9 @@ Core Mechanic:
 - Get from A to B to complete the level, then progress the next level.
 
 Feature:
-- Thrust the Rocket.
-- Rotate the rocket.
-- Movement for obstacle.
+- Thrust the Rocket by pressing Space.
+- Rotate the rocket left and right with A and D.
+- The obstacle will moving around.
 
 VFX:
 - Explodes when hitting an obstacle.
