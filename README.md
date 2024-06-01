@@ -12,6 +12,8 @@ VFX:
 - Explodes when hitting an obstacle.
 - Congratulations on hitting the finish line.
 - Flame when thrust or rotate the rocket.
+
+NOTE: This is just an alpha version of the game.
   
 
 
